@@ -8,6 +8,6 @@ const close = document.getElementById("close")
 menBtn.addEventListener("click", ()=>{
     navMenus.classList.add("show")
 })
-close.addEventListener("clik", ()=>{
+close.addEventListener("click", ()=>{
     navMenus.classList.remove("show")
 })

@@ -86,9 +86,12 @@ nav {
     transition: transform 0.4s ease-in-out;
     transform: translateX(100%);
 }
-.nav-menus li a{
+ #navMenus li a{
     width: 200px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size: 35px;
     border: 2px solid red;
@@ -112,7 +115,7 @@ nav {
     color: red;
     cursor: pointer;
 }
-.nav-menus .show{
+.nav-menus.show{
     transform: translateX(0);
 }
 @media (max-width:700px) {
