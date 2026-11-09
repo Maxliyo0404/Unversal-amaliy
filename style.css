@@ -168,5 +168,8 @@ h1{
     font-weight: bold;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
     
 }
