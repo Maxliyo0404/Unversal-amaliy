@@ -71,6 +71,27 @@ nav {
 .menu-btn {
   display: none;
 }
+.nav-menus{
+    position: relative;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}
+.nav-menus li a{
+    width: 200px;
+    height: 50px;
+   
+    border: 2px solid red;
+
+}
 @media (max-width:700px) {
 .nav-list{
     display: none;
