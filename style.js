@@ -3,7 +3,8 @@ const navMenus = document.getElementById("navMenus");
 const close = document.getElementById("close")
 const header = document.getElementById("header");
 const body = document.body;
-const loading = document.getElementById("loading")
+const loading = document.getElementById("loading");
+const darkmode = document.getElementById("tun")
 
 
 
