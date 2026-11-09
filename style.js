@@ -1,10 +1,13 @@
 const menBtn= document.getElementById("menu-btn");
 const navMenus = document.getElementById("navMenus");
-const
+const close = document.getElementById("close")
 
 
 
 
 menBtn.addEventListener("click", ()=>{
-    menBtn.classList.add("show")
+    navMenus.classList.add("show")
+})
+close.addEventListener("clik", ()=>{
+    navMenus.classList.remove("show")
 })
