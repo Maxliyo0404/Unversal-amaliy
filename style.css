@@ -28,10 +28,10 @@ body.tun{
 .kungi {
     display: block; 
 }
-body .tun .tungi{
+body.tun .tungi{
     display: block;
 }
-body .tun .kungi{
+body.tun .kungi{
     display: none;
 }
 .dark{
