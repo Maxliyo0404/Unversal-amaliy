@@ -34,6 +34,9 @@ body.tun .tungi{
 body.tun .kungi{
     display: none;
 }
+body.tun .about{
+    background-color: #1a1a1a;
+}
 .dark{
     background: transparent;
     border: none;
@@ -44,10 +47,8 @@ body.tun .kungi{
 }
 header {
   width: 100%;
-  height: 100vh;
+  height: 800px;
   position: relative;
-  inset: 0;
-  position: fixed;
   background-color: #1e1e1e !important;
 }
 video {
@@ -59,6 +60,8 @@ video {
 nav {
   padding: 20px 0;
   position: relative;
+    top: 0;
+    width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,7 +72,7 @@ nav {
   gap: 40px;
 }
 .nav-list a{
-    color: white;
+    color: rgb(221, 85, 22);
     font-size: 18px;
     &:hover{
         color: blue;
@@ -160,13 +163,15 @@ nav {
 }
 }
 .about{
-    background: gray;
+  background: rgb(44, 114, 212);
+  padding: 200px 0;
 }
 h1{
-    font-size: 80px;
+    font-size: 120px;
     color: white;
     background-image: url("https://img.magnific.com/premium-photo/big-ben-tower-houses-parliament-westminster-london_255553-6096.jpg?semt=ais_hybrid&w=740&q=80");
     font-weight: bold;
+    text-transform: uppercase;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
