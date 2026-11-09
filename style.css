@@ -30,6 +30,8 @@ body .tun .kungi{
 }
 .dark{
     background: transparent;
+    border: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
