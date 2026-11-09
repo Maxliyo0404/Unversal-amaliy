@@ -22,6 +22,12 @@ body.tun{
     background-color: #121212;
     color: #ffffff;
 }
+.tungi {
+    display: none; 
+}
+.kungi {
+    display: block; 
+}
 body .tun .tungi{
     display: block;
 }
