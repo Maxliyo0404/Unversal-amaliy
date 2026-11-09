@@ -29,9 +29,10 @@ body .tun .kungi{
     display: none;
 }
 .dark{
+    background: transparent;
     display: flex;
     align-items: center;
-    j
+    justify-content: space-between;
 }
 header {
   width: 100%;
