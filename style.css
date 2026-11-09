@@ -112,6 +112,9 @@ nav {
     color: red;
     cursor: pointer;
 }
+.nav-menus .show{
+    transform: translateX(0);
+}
 @media (max-width:700px) {
 .nav-list{
     display: none;
