@@ -44,7 +44,7 @@ body.tun .kungi{
 }
 header {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   position: relative;
   inset: 0;
   position: fixed;
@@ -52,6 +52,7 @@ header {
 }
 video {
   width: 100%;
+  height: 100%;
   position: absolute;
   object-fit: cover;
 }
