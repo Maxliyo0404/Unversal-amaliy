@@ -25,7 +25,9 @@ body .tun{
 body .tun .tungi{
     display: block;
 }
-body .tun
+body .tun .kungi{
+    display: none;
+}
 header {
   width: 100%;
   height: 800px;
