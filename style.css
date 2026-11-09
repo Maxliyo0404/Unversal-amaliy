@@ -71,8 +71,13 @@ nav {
 .menu-btn {
   display: none;
 }
-@media (max-widht:700px) {
+@media (max-width:700px) {
 .nav-list{
     display: none;
+}
+.menu-btn{
+    display: block;
+    background: transparent;
+    border: none;
 }
 }
