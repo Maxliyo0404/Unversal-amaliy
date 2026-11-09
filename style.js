@@ -4,7 +4,11 @@ const close = document.getElementById("close")
 const header = document.getElementById("header");
 const body = document.body;
 const loading = document.getElementById("loading");
-const darkmode = document.getElementById("tun")
+const darkmode = document.getElementById("tun");
+
+darkmode.addEventListener("click", ()=>{
+    body.classList.toggle("tun")
+})
 
 
 
