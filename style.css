@@ -92,6 +92,7 @@ nav {
     color: white;
     font-size: 35px;
     border: 2px solid red;
+    border-radius: 7px;
     transition: 0.5s;
     &:hover{
         background: red;
