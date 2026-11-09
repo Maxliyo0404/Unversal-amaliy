@@ -171,5 +171,6 @@ h1{
     background-size: cover;
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
     
 }
